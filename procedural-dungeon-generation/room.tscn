@@ -1,0 +1,40 @@
+[gd_scene load_steps=17 format=3 uid="uid://k3jkwg1ywrx6"]
+
+[ext_resource type="Script" uid="uid://ccb6rof4k2m2h" path="res://room.gd" id="1_88gup"]
+[ext_resource type="Texture2D" uid="uid://bqam0xarblist" path="res://assets/roomMapWhiteUp.png" id="2_i0wn2"]
+[ext_resource type="Texture2D" uid="uid://bnhy3qfeb3qwo" path="res://assets/roomMapWhiteDown.png" id="3_l46xq"]
+[ext_resource type="Texture2D" uid="uid://dwm710ujyhb8p" path="res://assets/roomMapWhiteRight.png" id="4_v7lnt"]
+[ext_resource type="Texture2D" uid="uid://dc68nt763ie7y" path="res://assets/roomMapWhiteLeft.png" id="5_kbdc6"]
+[ext_resource type="Texture2D" uid="uid://dsb17ns5jblvd" path="res://assets/roomMapWhiteUpDown.png" id="6_lha0o"]
+[ext_resource type="Texture2D" uid="uid://bn3gby8ikb2b5" path="res://assets/roomMapWhiteLeftRight.png" id="7_qfj0j"]
+[ext_resource type="Texture2D" uid="uid://bkan2acl4y7be" path="res://assets/roomMapWhiteUpRight.png" id="8_u2pwx"]
+[ext_resource type="Texture2D" uid="uid://cj3m1expo24ly" path="res://assets/roomMapWhiteUpLeft.png" id="9_247ak"]
+[ext_resource type="Texture2D" uid="uid://djuui3seqewy8" path="res://assets/roomMapWhiteDownRight.png" id="10_qoumo"]
+[ext_resource type="Texture2D" uid="uid://ck6dwf425loeg" path="res://assets/roomMapWhiteDownLeft.png" id="11_ho83x"]
+[ext_resource type="Texture2D" uid="uid://dn40bc7sj27k1" path="res://assets/roomMapWhiteUpLeftDown.png" id="12_nj41c"]
+[ext_resource type="Texture2D" uid="uid://dnc41njhj3n0k" path="res://assets/roomMapWhiteRightUpLeft.png" id="13_4edck"]
+[ext_resource type="Texture2D" uid="uid://bjdsctgklpgyc" path="res://assets/roomMapWhiteDownRightUp.png" id="14_uh4d7"]
+[ext_resource type="Texture2D" uid="uid://ced5hr8k5ymrc" path="res://assets/roomMapWhiteLeftDownRight.png" id="15_i44yh"]
+[ext_resource type="Texture2D" uid="uid://dbi1aqok1ilrv" path="res://assets/roomMapWhiteAll.png" id="16_yskd2"]
+
+[node name="Room" type="Node2D"]
+script = ExtResource("1_88gup")
+spU = ExtResource("2_i0wn2")
+spD = ExtResource("3_l46xq")
+spR = ExtResource("4_v7lnt")
+spL = ExtResource("5_kbdc6")
+spUD = ExtResource("6_lha0o")
+spRL = ExtResource("7_qfj0j")
+spUR = ExtResource("8_u2pwx")
+spUL = ExtResource("9_247ak")
+spDR = ExtResource("10_qoumo")
+spDL = ExtResource("11_ho83x")
+spULD = ExtResource("12_nj41c")
+spRUL = ExtResource("13_4edck")
+spDRU = ExtResource("14_uh4d7")
+spLDR = ExtResource("15_i44yh")
+spUDRL = ExtResource("16_yskd2")
+normal_color = Color(0.86473787, 0.99293894, 0.97206014, 1)
+enter_color = Color(0.22745098, 0.3529412, 1, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
