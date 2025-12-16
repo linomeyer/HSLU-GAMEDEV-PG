@@ -2,7 +2,6 @@
 @icon("res://sprites/target.png")
 class_name ArmTarget extends Node2D
 
-
 ## Left-click and drag to move the target around the viewport.
 
 var dragging: bool = false

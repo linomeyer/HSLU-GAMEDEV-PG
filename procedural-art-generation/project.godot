@@ -10,16 +10,29 @@ config_version=5
 
 [application]
 
-config/name="procedural-art-generation"
-run/main_scene="uid://cp42g3n1wxfpi"
-config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+config/name="Tentacle Arm Showcase"
+run/main_scene="uid://dec6sm6m68snh"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="uid://k738biuidln7"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
+window/stretch/scale_mode="integer"
+
+[file_customization]
+
+folder_colors={
+"res://scenes/": "red",
+"res://scripts/": "green",
+"res://shaders/": "purple"
+}
 
 [rendering]
 
-environment/defaults/default_clear_color=Color(0.15738428, 0.23701462, 0.29852527, 1)
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+anti_aliasing/screen_space_roughness_limiter/enabled=false
+environment/defaults/default_clear_color=Color(0.199703, 0.257754, 0.325558, 1)
